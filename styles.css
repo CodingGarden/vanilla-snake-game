@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  font-size: 2rem;
+  font-family: sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell {
+  outline: 2px solid black;
+}
+
+.apple {
+  background-color: red;
+}
+
+.snake-head {
+  background-color: green;
+}
+
+.snake-tail {
+  background-color: black;
+}
+
+#game {
+  width: 80vmin;
+  height: 80vmin;
+  outline: 2px solid black;
+  display: grid;
+}
